@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0,auto;
+   align-items: center;
+}
+.title{
+    width: 35%;
+    border: 1px rgb(197, 191, 191) solid; 
+    padding: 15px 0;
+    margin:0;
+}
+.header{
+    padding: 0 25px;
+}
+img{
+    width: 35%;
+}
+.score{
+    width: 35%;
+    border: 1px rgb(197, 191, 191) solid;
+    
+}
+p{
+    padding: 0 25px;
+}
+.buttons{
+    display:flex;
+    width: 35%;
+    
+}
+.buttons button{
+flex: 1;
+padding: 15px 0;
+border: none;
+}
+.score1{
+    font-size: 2rem;
+    font-weight: 600;
+} 
+
+.score2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.win-green{
+    color:rgb(25, 204, 25);
+
+}
+.lose-red{
+    color: red;
+}
+#player-one{
+background-color: rgb(40, 221, 40);
+color: white;
+}
+#player-two{
+    background-color: rgb(50, 63, 240);
+    color: white;
+}
+#reset{
+    background-color: rgb(214, 39, 33);
+    color: white;
+}
