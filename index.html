@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffloating-words.com%2Fwp-content%2Fuploads%2F2016%2F02%2FPingPongAnimation5.jpg&f=1&nofb=1&ipt=c039bdbf33f913bd88454b97383d51007c595936861750fbcb921fab9d2f0db0&ipo=images" alt="">
+     <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Rotated group -->
+    <g transform="rotate(45 75 75)">
+      <!-- Paddle face -->
+      <circle cx="75" cy="75" r="60" fill="red" stroke="black" stroke-width="4" />
+      
+      <!-- Handle -->
+      <rect x="60" y="120" width="30" height="70" rx="5" fill="#8B4513" stroke="black" stroke-width="3" />
+    </g>
+
+    <!-- Ball (optional, not rotated) -->
+    <circle cx="120" cy="30" r="10" fill="white" stroke="black" stroke-width="1" />
+  </svg>
     <p class="title"><span class="header">Ping Pong Score Keeper</span></p>
     <section class="score">
         <p>
